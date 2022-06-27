@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+		content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <title>모바일</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/swiper.css"> <!--swiper플러그인연결-->
+  <link rel="stylesheet" href="css/swiper_style.css">
+  <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript" src="js/swiper.js"></script> <!--swiper플러그인 스크립트연결-->
+  <script type="text/javascript">
+    $(function () {
+
+      var mySwiper2 = new Swiper ('.gallery2', {
+        loop: true, //순환유무  
+        pagination: '.nav2', //네비게이션class명
+        grabCursor: true, //커서 손모양
+        autoplay: 3000, //자동진행
+        effect: 'slide', // 'slide' or 'fade' or 'cube' or 'coverflow' or 'flip'
+    
+         //이전 다음 버튼
+       /*  nextButton: '.swiper-button-next2',
+        prevButton: '.swiper-button-prev2', */
+      });
+    
+    });
+    </script>
+</head>
+<body>
+
+  <!-- top btn -->
+  <div id="topBtn"><a href="#" class="goTop"></a></div>
+  
+  <header>
+    <h1><a href="index.html"><img src="image/logo.png" alt="logo"></a></h1>
+    <span class="menu_toggle_btn indent">전체 메뉴 토글 버튼</span>
+    
+    <nav class="gnb">
+      <ul class="gnb_list">
+        <li>
+          <a href="main1.html">국립공원탐방</a>
+          <span class="indent">밑줄</span>
+          <div class="m1Left">
+            <a href="sub1_13.html">가야산</a>
+            <a href="sub1_16.html">경주</a>
+            <a href="sub1_11.html">계룡산</a>
+            <a href="sub1_15.html">내장산</a>
+            <a href="sub1_20.html">다도해해상</a>
+            <a href="sub1_12.html">덕유산</a>
+            <a href="sub1_18.html">무등산</a>
+            <a href="sub1_14.html">변산반도</a>
+          </div>
+          <div class="m1Middle">
+            <a href="sub1_2.html">북한산</a>
+            <a href="sub1_1.html">설악산</a>
+            <a href="sub1_8.html">소백산</a>
+            <a href="sub1_9.html">속리산</a>
+            <a href="sub1_3.html">오대산</a>
+            <a href="sub1_6.html">월악산</a>
+            <a href="sub1_21.html">월출산</a>
+          </div>  
+          <div class="m1Right">
+            <a href="sub1_10.html">주왕산</a>
+            <a href="sub1_17.html">지리산</a>
+            <a href="sub1_4.html">치악산</a>
+            <a href="sub1_5.html">태백산</a>
+            <a href="sub1_7.html">태안해안</a>
+            <a href="sub1_22.html">한라산</a>
+            <a href="sub1_19.html">한려해상</a>
+          </div>
+        </li>
+        <li><a href="main2.html">국립공원예약</a></li>
+        <li><a href="main3.html">국립공원자원</a></li>
+        <li><a href="main4.html">홍보미디어센터</a></li>
+        <li class="close"><a href="#none"><img src="image/close_white.png" alt="close"></a></li>
+      </ul>
+    </nav>
+    <div class="back"></div>
+  </header>
+  <div class="indent headersize">해더가 뜬 만큼 공간을 차지할 박스</div>
+
+  <!--swiper1-->
+  <div class="gallery2">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="image/visual1.png" alt=""></div>
+      <div class="swiper-slide"><img src="image/visual2.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="image/visual3.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="image/visual4.png" alt=""></div>
+    </div>
+
+    <div class="nav2"></div>
+
+    <!-- <div class="swiper-button-prev2 swiper-button-white"></div>
+    <div class="swiper-button-next2 swiper-button-white"></div> -->
+  </div>
+
+  <section>
+    <div id="section1">
+      <h3>국립공원 <span>바로가기</span></h3>
+      <div id="map">
+        <ul>
+          <li><a href="sub1_1.html">설악산</a></li>
+          <li><a href="sub1_2.html">북한산</a></li>
+          <li><a href="sub1_3.html">오대산</a></li>
+          <li><a href="sub1_4.html">치악산</a></li>
+          <li><a href="sub1_5.html">태백산</a></li>
+          <li><a href="sub1_6.html">월악산</a></li>
+          <li><a href="sub1_7.html">태안해안</a></li>
+          <li><a href="sub1_8.html">소백산</a></li>
+          <li><a href="sub1_9.html">속리산</a></li>
+          <li><a href="sub1_10.html">주왕산</a></li>
+          <li><a href="sub1_11.html">계룡산</a></li>
+          <li><a href="sub1_12.html">덕유산</a></li>
+          <li><a href="sub1_13.html">가야산</a></li>
+          <li><a href="sub1_14.html">변산반도</a></li>
+          <li><a href="sub1_15.html">내장산</a></li>
+          <li><a href="sub1_16.html">경주</a></li>
+          <li><a href="sub1_17.html">지리산</a></li>
+          <li><a href="sub1_18.html">무등산</a></li>
+          <li><a href="sub1_19.html">한려해상</a></li>
+          <li><a href="sub1_20.html">다도해해상</a></li>
+          <li><a href="sub1_21.html">월출산</a></li>
+          <li><a href="sub1_22.html">한라산</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="section2">
+      <div>
+        <ul class="clear">
+          <li>
+            <div class="s2Img1"></div>
+            <p>예약 통합시스템</p>
+          </li>
+          <li>
+            <div class="s2Img2"></div>
+            <p>국립공원유튜브</p>
+          </li>
+          <li>
+            <div class="s2Img3"></div>
+            <p>국립공원날씨</p>
+          </li>
+          <li>
+            <div class="s2Img4"></div>
+            <p>국립공원굿즈</p>
+          </li>
+        </ul>
+        <ul class="clear">
+          <li>
+            <div class="s2Img5"></div>
+            <p>안전가이드 예약</p>
+          </li>
+          <li>
+            <div class="s2Img6"></div>
+            <p>자원봉사</p>
+          </li>
+          <li>
+            <div class="s2Img7"></div>
+            <p>정보공개</p>
+          </li>
+          <li>
+            <div class="s2Img8"></div>
+            <p>홍보자료</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <div>
+      <ul class="address clear">
+        <li><img src="image/footer_logo.gif" alt="logo"></li>
+        <li>대표전화 : 033-769-9300 &nbsp; 고객센터 : 1670-9201 &nbsp;</li>
+      </ul>  
+    </div>
+    <div class="copy">Copyright &copy; Korea National Park Service. All Rights Reserved.</div>
+  </footer>
+  
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(topbtn.css);
+
+@font-face {
+  font-family: 'Happiness-Sans-Title';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Title.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+section{color:rgb(54, 54, 54)}
+.main3name{
+  display:block;
+  font-size:20px;
+  font-size:1.25rem;
+  font-weight:900;
+  margin:20px 0px 20px 15px;
+  color:rgb(41, 41, 41);
+  text-align:left;
+}
+section div img{
+  width:100%;
+  object-fit:cover;
+}
+section p{
+  font-family: 'Happiness-Sans-Title';
+  font-size:18px;
+  font-size:1.125rem;
+  font-weight:bold;
+  text-align:center;
+  margin-top:5%;
+  margin-bottom:2%;
+}

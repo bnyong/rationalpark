@@ -1,0 +1,52 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(topbtn.css);
+
+/* @font-face {
+  font-family: 'Happiness-Sans-Title';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Title.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+section .visual img{
+  width:100%;
+  object-fit:cover;
+}
+.main4name{
+  display:block;
+  font-size:20px;
+  font-size:1.25rem;
+  font-weight:900;
+  margin:20px 0px 15px 15px;
+  color:green;
+  text-align:left;
+}
+section div{width:100%;}
+section div ul{display:flex;justify-content:space-around;}
+section div ul li{
+  width:30%;
+}
+section div ul li:first-child{padding-left:1%;}
+section div ul li img{
+  width:100%;
+}
+section div ul li p{
+  font-size:11px;
+  font-size:0.687rem;
+  line-height:110%;
+  padding-top:10%;
+  line-height:16px;
+}
+
+section div:nth-child(2){
+  margin-bottom:10%;
+}
+section div:nth-child(3){
+  margin-bottom:10%;
+}
+
+
+
+

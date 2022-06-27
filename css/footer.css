@@ -1,0 +1,21 @@
+footer{background:rgb(240, 240, 240);width:100%;}
+
+.address{padding:3% 0}
+.address li:nth-child(1){
+ float:left;
+ padding-left:1%;
+}
+.address li:nth-child(2){
+  float:right;
+  padding-right:1%;
+  font-size:11px;
+  font-size:0.688rem;
+  color:#666666;
+}
+.copy{
+  font-size:13px;
+  font-size:0.813rem;
+  text-align: center;
+  color:#424242;
+  padding-bottom:10px;
+}

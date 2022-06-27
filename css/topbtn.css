@@ -1,0 +1,18 @@
+#topBtn{
+  position:fixed;
+  right:2%;
+  bottom:6%;
+  z-index:1000;
+}
+#topBtn a.goTop{
+  display:block;
+  width:35px;
+  height:35px;
+  /* border-radius:50%; */
+  background:url(../image/top.png) no-repeat;
+  transition:all 0.5s;
+}
+/* #topBtn a.goTop:hover{
+  box-shadow:0px 0px 4px #000;
+  background:url(../image/top_on.png) no-repeat;
+} */

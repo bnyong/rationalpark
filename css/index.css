@@ -1,0 +1,207 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(topbtn.css);
+
+@font-face {
+  font-family: 'KOTRAHOPE';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* _______________ section1 */
+section h3{
+  font-size:20px;
+  font-size:1.250rem;
+  padding:1% 0 1% 2%;
+  font-family: 'KOTRAHOPE';
+  letter-spacing:2.5px;
+  color:#5e5e5e;
+}
+section h3 span{
+  font-weight:500;
+}
+#section1{padding-top:5%;}
+#map{
+  background:url(../image/bg.png) no-repeat center center;
+  width:100%;
+  height:700px;
+}
+#map ul{
+  position:relative;
+}
+#map ul li{
+  position:absolute;
+  padding:1.5%;
+  border:1px solid rgb(73, 117, 173);
+  border-radius:5px;
+  color:rgb(73, 117, 173);
+  font-size:15px;
+  font-size:0.938rem;
+  background:#fff;
+  font-weight:bold;
+  transition:all 0.3s;
+}
+#map ul li:hover{
+  transform:scale(1.1);
+  background:rgba(73, 117, 173, 0.2);
+}
+#map ul li:nth-child(1){
+  top:34px;
+  right:24%;
+}
+#map ul li:nth-child(2){
+  top:114px;
+  left:20%;
+}
+#map ul li:nth-child(3){
+  top:114px;
+  right:18%;
+}
+#map ul li:nth-child(4){
+  top:145px;
+  left:48%;
+}
+#map ul li:nth-child(5){
+  top:175px;
+  right:10%;
+}
+#map ul li:nth-child(6){
+  top:200px;
+  left:35%;
+}
+#map ul li:nth-child(7){
+  top:240px;
+  left:6%;
+}
+#map ul li:nth-child(8){
+  top:230px;
+  right:17%;
+}
+#map ul li:nth-child(9){
+  top:260px;
+  left:40%;
+}
+#map ul li:nth-child(10){
+  top:290px;
+  right:10%;
+}
+#map ul li:nth-child(11){
+  top:313px;
+  left:18%;
+}
+#map ul li:nth-child(12){
+  top:330px;
+  left:43%;
+}
+#map ul li:nth-child(13){
+  top:360px;
+  right:16%;
+}
+#map ul li:nth-child(14){
+  top:385px;
+  left:15%;
+}
+#map ul li:nth-child(15){
+  top:390px;
+  left:42%;
+}
+#map ul li:nth-child(16){
+  top:415px;
+  right:10%;
+}
+#map ul li:nth-child(17){
+  top:440px;
+  left:43%;
+}
+#map ul li:nth-child(18){
+  top:460px;
+  left:13%;
+}
+#map ul li:nth-child(19){
+  top:470px;
+  right:20%;
+}
+#map ul li:nth-child(20){
+  top:510px;
+  left:41.3%;
+}
+#map ul li:nth-child(21){
+  top:530px;
+  left:10%;
+}
+#map ul li:nth-child(22){
+  top:635px;
+  left:20%;
+}
+
+/* _______________ section2 */
+#section2{margin:4% 0;}
+
+#section2 div ul{width:100%;}
+#section2 div ul li{width:25%;float:left;height:13vh;}
+#section2 div ul li p{
+  text-align:center;
+  font-size:14px;
+  font-size:0.875rem;
+}
+#section2 div ul:first-child li:nth-child(1) p,
+#section2 div ul:first-child li:nth-child(2) p{color:#fff;}
+#section2 div ul:last-child li:nth-child(3) p,
+#section2 div ul:last-child li:nth-child(4) p{color:#fff;}
+
+#section2 div ul:first-child li:nth-child(1){background:#225393;}
+#section2 div ul li .s2Img1{
+  background:url(../image/main_ban_01.png) no-repeat center center;
+  width:100%;
+  height:10vh;
+}
+
+#section2 div ul:first-child li:nth-child(2){background:#2E76AE;}
+#section2 div ul li .s2Img2{
+  background:url(../image/main_ban_02.png) no-repeat center center;
+  width:100%;
+  height:10vh;
+}
+
+#section2 div ul:first-child li:nth-child(3){background:#8EC5D8;}
+#section2 div ul li .s2Img3{
+  background:url(../image/main_ban_03.png) no-repeat center center;
+  width:100%;
+  height:10vh;
+}
+#section2 div ul:first-child li:nth-child(4){background:#BCEBFB;}
+#section2 div ul li .s2Img4{
+  background:url(../image/main_ban_04.png) no-repeat center center;
+  width:100%;
+  height:10vh;
+}
+
+#section2 div ul:last-child li:nth-child(1){background:#A2C38B;}
+#section2 div ul li .s2Img5{
+  background:url(../image/main_ban_05.png) no-repeat center center;
+  width:100%;
+  height:10vh;
+}
+
+#section2 div ul:last-child li:nth-child(2){background:#77B075;}
+#section2 div ul li .s2Img6{
+  background:url(../image/main_ban_06.png) no-repeat center center;
+  width:100%;
+  height:10vh;
+}
+
+#section2 div ul:last-child li:nth-child(3){background:#409849;}
+#section2 div ul li .s2Img7{
+  background:url(../image/main_ban_07.png) no-repeat center center;
+  width:100%;
+  height:10vh;
+}
+
+#section2 div ul:last-child li:nth-child(4){background:#13711C;}
+#section2 div ul li .s2Img8{
+  background:url(../image/main_ban_08.png) no-repeat center center;
+  width:100%;
+  height:10vh;
+}

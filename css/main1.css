@@ -1,0 +1,65 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(topbtn.css);
+
+
+
+.subtitle{
+  font-size:30px;
+  font-size:1.875rem;
+  font-weight:900;
+  color:green;
+  text-align:center;
+  margin:4% 0;
+}
+section{margin:0 3%;}
+section div{
+  font-size:10px;
+  font-size:0.625rem; 
+  color:#434343;
+}
+section div p, section>div>ul>li{
+  line-height:160%;
+}
+section div>span{
+  display:inline-block;
+  font-weight:bold;
+  font-size:12px;
+  font-size:0.750rem;
+  margin-bottom:5px;
+}
+section div:not(first-child){margin-bottom:4%;}
+
+
+/* _______________ section 1 _______________ */
+#section1,#section2,#section3,#section4,#section5,#section6,#section7{padding:0 3%;}
+#section1 ul li{float:left;}
+#section1 ul li:nth-child(1){
+  width:48%;  
+}
+#section1 ul li:nth-child(2){
+  width:48%;
+  margin-left:4%;
+}
+#section1 ul li span{
+  display:block;
+  font-weight:bold;
+  font-size:12px;
+  font-size:0.750rem;
+  padding-bottom:10%
+}
+#section1 ul li img{width:100%;}
+
+/* _______________ section 7 _______________ */
+#section7{margin-top:15%;}
+.container{
+  display:flex;
+  justify-content:space-around;
+}
+.container div p{
+  font-size:12px;
+  text-align:center;
+  color:#434343;
+}
+.box{width:70px;}
