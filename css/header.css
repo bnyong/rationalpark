@@ -8,6 +8,11 @@ header{
   background:#fff;
 }
 
+/* iframe을 위한 스크롤바 가리기 */
+body::-webkit-scrollbar{
+	width:0px;
+}
+
 /* _______________ 헤더가 뜬 만큼 공간을 차지할 박스 */
 .headersize{width:100%;height:60px;visibility:hidden;}
 
