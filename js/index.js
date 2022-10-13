@@ -12,13 +12,13 @@ $(document).ready(function(){
 
 	/* 메뉴버튼 */
 	$(".menu_toggle_btn").click(function(){
-		$(".gnb_list").stop().animate({"right":"0"});
+		$(".gnb_list").stop().animate({"right":"0","opacity":"1"});
 		$(".back").stop().fadeIn();
 	});
 
 	/* 닫기버튼 */
 	$(".gnb .close").click(function(){
-		$(".gnb_list").stop().animate({"right":"-70%"});
+		$(".gnb_list").stop().animate({"right":"-70%","opacity":"0"});
 		$(".back").stop().fadeOut();
 	});
 	
